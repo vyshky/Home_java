@@ -20,7 +20,7 @@ public class House {
         } else color = "Не покрашен";
     }
 
-    public void SetOwner(Owner owner) {
+    public void setOwner(Owner owner) {
         this.owner = owner;
     }
 
@@ -28,8 +28,8 @@ public class House {
         this.owner = new Owner(firstName, lastName, age);
     }
 
-    public void GetOwner() {
-        owner.TellAboutYourself();
+    public void getOwner() {
+        owner.tellAboutYourself();
     }
 
     public void info() {

@@ -8,10 +8,10 @@ public class Owner {
     public Owner(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.SetAge(age);
+        this.setAge(age);
     }
 
-    public void SetAge(int age) {
+    public void setAge(int age) {
         if (age > 0) {
             this.age = age;
         } else this.age = 0;
@@ -22,7 +22,7 @@ public class Owner {
         System.out.println(firstName + " " + lastName + " , " + age + " лет");
     }
 
-    public void TellAboutYourself() {
+    public void tellAboutYourself() {
 
         System.out.println("\u001B[34m" + "Привет , " + "я " + firstName + " " + lastName + " и мне " + age + " лет" + "\u001B[0m");
     }
