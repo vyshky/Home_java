@@ -14,7 +14,7 @@ public class House {
         this.color = color;
     }
 
-    public void SetColor(String color) {
+    public void setColor(String color) {
         if (color != null) {
             this.color = color;
         } else color = "Не покрашен";
