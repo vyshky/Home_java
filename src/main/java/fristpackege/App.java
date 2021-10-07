@@ -13,7 +13,7 @@ public class App {
         String color = "Синий";
         House house = new House(owner, floor, address, color);
 
-        house.getOwner();
-        house.info();
+        house.printOwner();
+        house.infoHome();
     }
 }

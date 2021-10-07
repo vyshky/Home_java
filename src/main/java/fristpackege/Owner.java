@@ -12,12 +12,12 @@ public class Owner {
     }
 
     public void setAge(int age) {
-        if (age > 0) {
+        if (age >= 0) {
             this.age = age;
         } else this.age = 0;
     }
 
-    public void info() {
+    public void infoOwner() {
         System.out.print("Владелец дома : ");
         System.out.println(firstName + " " + lastName + " , " + age + " лет");
     }

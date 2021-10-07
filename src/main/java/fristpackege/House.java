@@ -4,7 +4,7 @@ package fristpackege;
 public class House {
     private Owner owner;
     private int floor;
-    private String address;
+    private final String address;
     private String color;
 
     public House(Owner owner, int floor, String address, String color) {
@@ -28,12 +28,12 @@ public class House {
         this.owner = new Owner(firstName, lastName, age);
     }
 
-    public void getOwner() {
+    public void printOwner() {
         owner.tellAboutYourself();
     }
 
-    public void info() {
-        owner.info();
+    public void infoHome() {
+        owner.infoOwner();
         System.out.println("Этажей : " + floor);
         System.out.println("Адрес : " + address);
         System.out.println("Цвет : " + color);
